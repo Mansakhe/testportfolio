@@ -11,6 +11,7 @@
       url("./image/toff.jpg") center center fixed no-repeat;
     background-size: cover;
     border: none;
+    
   }
   .navbar-toggler {
     outline: none !important;
@@ -50,6 +51,24 @@
     letter-spacing: 2px;
   }
   .main-btn:hover {
+    background-color: #c03c0c;
+    border-color: #fff;
+    color: #fff;
+  }
+  .main-btn2{
+    display: inline-block;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+    padding: 10px 27px;
+    background: transparent;
+    border: 2px solid gray;
+    color: gray;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  .main-btn2:hover{
     background-color: #c03c0c;
     border-color: #fff;
     color: #fff;
@@ -142,7 +161,7 @@
     background: linear-gradient(rgba(4, 0, 18, 0.5), rgba(6, 0, 22, 0.5)),
     url("./toff.jpg") center center fixed no-repeat;
     background-size: cover;
-    padding: 200px 0 100px 20;
+    padding: 250px 0 100px 20;
   }
   .nav-pills{
     border: 1px solid gray;
